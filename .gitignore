@@ -1,11 +1,24 @@
+### Intellij ###
+
+.idea
+target
+
+
+*.iml
+# *.ipr
+
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
 # Compiled class file
 *.class
 
 # Log file
 *.log
-
-# BlueJ files
-*.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
