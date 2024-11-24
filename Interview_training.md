@@ -19,3 +19,9 @@ Write a method that takes a string and returns it in reverse order.
 Write a function that checks whether the given string is a palindrome (reads the same in both directions).
 
 [Solution](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/Palindrome.java)
+
+### Task 2
+Develop a method that, by given a number N, creates an N x N matrix filled with numbers from 1 to N^2 in a spiral starting from the upper left corner.
+
+[Solution](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/interviewtraining/lesson1/Spiral.java)
+
