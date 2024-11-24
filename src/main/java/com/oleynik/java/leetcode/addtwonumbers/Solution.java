@@ -21,13 +21,8 @@ public class Solution {
                 temp2 = temp2.next;
             }
             sum = sum + val1 + val2;
-            if (sum > 9) {
-                nextNode.val = sum % 10;
-                sum /= 10;
-            } else {
-                nextNode.val = sum;
-                sum = 0;
-            }
+            nextNode.val = sum % 10;
+            sum /= 10;
             currentListNode = nextNode;
             currentListNode.next = new ListNode();
             nextNode = currentListNode.next;
@@ -35,7 +30,6 @@ public class Solution {
         if (sum != 0) {
             nextNode.val = sum;
             currentListNode = nextNode;
-            currentListNode.next = null;
         }
         currentListNode.next = null;
         return result;
