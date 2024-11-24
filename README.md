@@ -5,7 +5,7 @@
 
 This is a project with my Leetcode solutions in Java
 
-| № | Difficulty                                    | Coding Problem                                                                                                                                           | Leetcode link                                                                               |
-|---|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| 2 | <span style="color:yellow"> **Medium**</span> | [Add Two Numbers (Solution)](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/java/leetcode/addtwonumbers/Solution.java) | [Add Two Numbers (Description)](https://leetcode.com/problems/add-two-numbers/description/) |
-
+| № | Difficulty                                    | Coding Problem                                                                                                                                           | Leetcode link                                                                                                                       |
+|---|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| 2 | <span style="color:#fac31d"> **Medium**</span> | [Add Two Numbers (Solution)](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/java/leetcode/addtwonumbers/Solution.java) | [Add Two Numbers (Description)](https://leetcode.com/problems/add-two-numbers/description/)                            |
+| 26 | <span style="color:#46c6c2"> **Easy**</span>   | [Remove Duplicates from Sorted Array (Solution)](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/java/leetcode/removeduplicatesfromsortedarray/Solution.java) | [Remove Duplicates from Sorted Array (Description)](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) |
