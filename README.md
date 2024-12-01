@@ -12,5 +12,4 @@ This is a project with my Leetcode solutions in Java
 | 3  | <span style="color:#fac31d"> **Medium**</span> | [Longest Substring Without Repeating Characters (Solution)](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/java/leetcode/longesrtsubstreang3/Solution.java)  | [Longest Substring Without Repeating Characters (Description)](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |
 | 26 | <span style="color:#46c6c2"> **Easy**</span>   | [Remove Duplicates from Sorted Array (Solution)](https://github.com/a-oleynik/leetcode-java/tree/master/src/main/java/com/oleynik/java/leetcode/removeduplicatesfromsortedarray/Solution.java) | [Remove Duplicates from Sorted Array (Description)](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)                       |
 
-# Express interview training
-[Express interview training](https://github.com/a-oleynik/leetcode-java/tree/master/Interview_training.md)
+
