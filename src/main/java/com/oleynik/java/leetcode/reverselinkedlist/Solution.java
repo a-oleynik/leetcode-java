@@ -2,16 +2,19 @@ package com.oleynik.java.leetcode.reverselinkedlist;
 
 public class Solution {
     public ListNode reverseList(ListNode head) {
-        ListNode previousistNode = null;
-        ListNode currentListNode = head;
-        ListNode nextNode = null;
-        while(currentListNode!=null){
-            nextNode = currentListNode.next;
-            currentListNode.next = previousistNode;
-            previousistNode = currentListNode;
-            currentListNode = nextNode;
+        // [previous] -> [head] -> [next] -> ...
+        // [previous] <- [head] <- [next] <- ...
+        // [next] <- [head] <- [previous] <- ...
+        // [...] <- [previous] <- [head] <- ...
+        ListNode previous = null;
+        ListNode next;
+        while(head != null) {
+            next = head.next;
+            head.next = previous;
+            previous = head;
+            head = next;
         }
-        return previousistNode;
+        return previous;
     }
 
     public static void main(String[] args) {
