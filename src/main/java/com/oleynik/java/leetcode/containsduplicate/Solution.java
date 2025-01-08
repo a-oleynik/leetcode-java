@@ -5,9 +5,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 class Solution {
-    // Brute force
-    //Time complexity: O(n^2)
-    //Space complexity: O(1)
+    // 1. Brute force
+    // Time complexity: O(n^2)
+    // Space complexity: O(1)
     public boolean containsDuplicate1(int[] nums) {
         int n = nums.length;
         for (int i = 0; i < n; i++) {
@@ -20,9 +20,9 @@ class Solution {
         return false;
     }
 
-    // Sorting
-    //Time complexity: O(n log n)
-    //Space complexity: O(1) or O(n)
+    // 2. Sorting
+    // Time complexity: O(n log n)
+    // Space complexity: O(1) or O(n)
     public boolean containsDuplicate2(int[] nums) {
         int n = nums.length;
         Arrays.sort(nums);
@@ -34,9 +34,9 @@ class Solution {
         return false;
     }
 
-    // Set
-    //Time complexity: O(n)
-    //Space complexity: O(n)
+    // 3. Set
+    // Time complexity: O(n)
+    // Space complexity: O(n)
     public boolean containsDuplicate3(int[] nums) {
         int n = nums.length;
         Set<Integer> set = new HashSet<>() {{
@@ -51,9 +51,9 @@ class Solution {
     }
 
 
-    //Arrays.stream
-    //Time complexity: O(n)
-    //Space complexity: O(n)
+    // 4. Arrays.stream
+    // Time complexity: O(n)
+    // Space complexity: O(n)
     public boolean containsDuplicate4(int[] nums) {
         return Arrays.stream(nums).distinct().count() < nums.length;
     }
