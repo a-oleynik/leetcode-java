@@ -2,7 +2,6 @@ package com.oleynik.java.leetcode.mimimumspeedtoarriveontime;
 
 public class Solution {
     public int minSpeedOnTime(int[] dist, double hour) {
-
         //Edge case if there are too many intervals
         if (dist.length - 1 > hour) {
             return -1;
@@ -24,11 +23,12 @@ public class Solution {
     }
 
     public static double getTime(int[] dist, double speed) {
+        int n = dist.length;
         double realTime = 0;
-        for (int i = 0; i < dist.length - 1; i++) {
+        for (int i = 0; i < n - 1; i++) {
             realTime += Math.ceil(dist[i] / speed);
         }
-        return realTime + dist[dist.length - 1] / speed;
+        return realTime + dist[n - 1] / speed;
     }
 
     public static int getLowerBound(int[] dist, double hour) {
@@ -94,7 +94,6 @@ public class Solution {
         System.out.println("Example 7 - Input: dist = [69], hour = 4.6");
         System.out.println("Output: " + solution.minSpeedOnTime(dist7, hour7));
         System.out.println("Expected: 15\n");
-
 
     }
 }
